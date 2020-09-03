@@ -134,6 +134,8 @@ Then run
 ```
 $ docker-compose up
 $ yarn dev
+
+currently the migrations aren't executed automatically, so the database doesn't get set up. You can force this by running NODE_ENV=test yarn start for the first time. then use yarn start to deploy sra endpoints
 ```
 
 ## Testing
